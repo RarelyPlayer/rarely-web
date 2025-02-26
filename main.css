@@ -79,6 +79,27 @@ div.link-list {
     text-align: center;
 }
 
+a:link {
+    color: rgb(231, 146, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(221, 98, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:link {
+    color: rgb(244, 202, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color: rgb(189, 108, 212);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .light-theme {
     --bg: var(--white);
     --fontColor: var(--black);
